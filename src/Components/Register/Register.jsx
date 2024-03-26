@@ -20,7 +20,7 @@ const Register = () => {
                         <input className="bg-transparent py-2 border-b outline-none" type="password" name="confirm_Password" placeholder="Confirm Password" id="" />
                         <button className="w-full btn btn-accent" type="submit">Create an account</button>
                     </div>
-                    <p className="text-center mt-4">Already have an account? <Link><span className="text-accent font-bold">Login</span></Link></p>
+                    <p className="text-center mt-4">Already have an account? <Link to={'/Login'}><span className="text-accent font-bold">Login</span></Link></p>
                 </form>
                 <div>
                     <div className="flex items-center justify-center gap-2 max-w-md mx-auto mt-4 ">

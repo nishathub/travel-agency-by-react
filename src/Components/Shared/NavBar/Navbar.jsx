@@ -11,7 +11,7 @@ const Navbar = () => {
             <li><Link to={'/Register'}>Register</Link></li>
         </>
     return (
-        <div>
+        <div className="px-4">
             <div className="navbar text-slate-300">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-accent text-">Login</a>
+                    <Link to={'/Login'} className="btn btn-accent text-">Login</Link>
                 </div>
             </div>
         </div>
