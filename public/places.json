@@ -1,0 +1,23 @@
+[
+    {
+      "id": 4,
+      "name": "COX'S BAZAR",
+      "description": "Cox’s Bazar is a town located on the southeast coast of Bangladesh. Renowned for hosting one of the longest sandy beachfronts globally, it stretches from Sea Beach in the north to Kolatoli Beach in the south. The town boasts the Aggameda Khyang monastery, which houses remarkable bronze statues and centuries-old Buddhist manuscripts. South of Cox's Bazar lies the lush tropical rainforest of Himchari National Park, characterized by majestic waterfalls and diverse bird species. Towards the north, the nearby Sonadia Island serves as a vital breeding ground for sea turtles, adding to the area's ecological significance."
+    },
+    {
+      "id": 3,
+      "name": "SUNDARBANS",
+      "description": "Sundarbans, situated in Bangladesh, is the largest mangrove forest globally and a UNESCO World Heritage Site. This unique ecosystem is famous for its extensive network of interconnecting tidal waterways and dense mangrove forests, providing habitats for various wildlife species, including the endangered Bengal tiger. The Sundarbans is not only a sanctuary for diverse flora and fauna but also plays a crucial role in protecting coastal regions from natural calamities like cyclones and tidal surges."
+    },
+    {
+      "id": 2,
+      "name": "SREEMANGAL",
+      "description": "Sreemangal, often referred to as the 'Tea Capital of Bangladesh,' is a picturesque town located in the northeastern part of the country. It is renowned for its sprawling tea gardens, where visitors can witness the mesmerizing sight of lush greenery spread across undulating hills. Sreemangal is also home to the Lawachara National Park, a biodiversity hotspot teeming with various species of flora and fauna, including rare primates like the Hoolock Gibbon. Additionally, the area offers opportunities for exploring tribal villages, experiencing indigenous cultures, and indulging in delightful local cuisine."
+    },
+    {
+      "id": 1,
+      "name": "SAJEK VALLEY",
+      "description": "Sajek Valley, nestled amidst the hills of the Chittagong Hill Tracts in Bangladesh, is a scenic destination renowned for its breathtaking natural beauty and tranquil ambiance. The valley offers panoramic views of rolling hills adorned with verdant forests, interspersed with gushing streams and cascading waterfalls. Visitors to Sajek Valley can engage in activities such as hiking, trekking, and exploring the indigenous culture of the area, interacting with the local communities of the indigenous tribes who call this picturesque region home."
+    }
+  ]
+  
