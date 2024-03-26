@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { TravelContext } from '../../AuthProvider/AuthProvider';
 
 const BookingCard = () => {
 
