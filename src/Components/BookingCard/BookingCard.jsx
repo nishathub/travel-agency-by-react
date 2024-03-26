@@ -7,14 +7,11 @@ const BookingCard = () => {
     const [destination, setDestination] = useState('');
     const [departureDate, setDepartureDate] = useState('');
     const [returnDate, setReturnDate] = useState('');
+    const {handleBookingSubmit} = useContext(TravelContext);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic here
-        console.log("Origin:", origin);
-        console.log("Destination:", destination);
-        console.log("Departure Date:", departureDate);
-        console.log("Return Date:", returnDate);
+       return handleBookingSubmit(origin, destination, departureDate, returnDate);
     };
     return (
         <form onSubmit={handleSubmit} className='p-4 rounded-md bg-black/50 h-fit'>

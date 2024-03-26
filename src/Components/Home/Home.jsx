@@ -1,7 +1,6 @@
 
 import Carousel from "../Carousel/Carousel";
 import Navbar from "../Shared/NavBar/Navbar";
-import PlaceInfo from "../PlaceInfo/PlaceInfo";
 const Home = () => {
 
     return (

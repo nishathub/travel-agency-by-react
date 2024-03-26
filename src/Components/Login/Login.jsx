@@ -14,11 +14,11 @@ const Login = () => {
                     <form className="border border-slate-500 rounded-md max-w-lg mx-auto p-8">
                         <h2 className="text-xl font-bold mb-8">Login here</h2>
                         <div className="flex flex-col gap-4">
-                            <input className="bg-transparent py-2 border-b outline-none" type="email" name="email" placeholder="Email" id="" />
-                            <input className="bg-transparent py-2 border-b outline-none" type="password" name="password" placeholder="Password" id="" />
+                            <input className="bg-transparent py-2 border-b outline-none" type="email" name="email" placeholder="Email"  />
+                            <input className="bg-transparent py-2 border-b outline-none" type="password" name="password" placeholder="Password"  />
                             <div className="flex justify-between">
                                 <div className="flex gap-2 items-center">
-                                    <input type="checkbox" name="" id="" />
+                                    <input type="checkbox" name="" />
                                     <span>Remember Me</span>
                                 </div>
                                 <div>
