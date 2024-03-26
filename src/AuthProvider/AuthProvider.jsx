@@ -1,4 +1,6 @@
+import { createUserWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
+import auth from "../Firebase/Firebase_config";
 
 export const TravelContext = createContext();
 
@@ -35,7 +37,40 @@ const AuthProvider = ({children}) => {
         e.currentTarget.style.display = 'none';
     }
 
+    // Registration Email Pass auth
+    const createNewUser = (email, password) => {
+       return createUserWithEmailAndPassword(auth, email, password);
+    }
+
+    // Login User
+    const loginUser = (email, password) => {
+        return signInWithEmailAndPassword(auth, email, password);
+    }
+
+    // logout User 
+    const logoutUser = () => {
+       return signOut(auth);
+    }
+
+    // Update a user profile 
+    const updateUser = (name) => {
+       return updateProfile(auth.currentUser, {
+            displayName: name
+        })
+    }
+    // send reset email 
+    const resetPassword = (email) => {
+        return sendPasswordResetEmail(auth, email);
+    }
+
+    // send verification email
+    const verifyUser = () => {
+       return sendEmailVerification(auth.currentUser);
+    }
+
+
     useEffect(() => {
+        setLoading(true)
         fetch('places.json')
         .then(res => res.json())
         .then(data => {
@@ -45,7 +80,7 @@ const AuthProvider = ({children}) => {
         })
     },[placeId])
 
-    const authInfo = { place, placeId, loading, isFullDescription,handleBookingSubmit, handleSelection, handleBookNow};
+    const authInfo = { place, placeId, loading, isFullDescription,handleBookingSubmit, handleSelection, handleBookNow, createNewUser, loginUser, logoutUser,  updateUser, resetPassword, verifyUser};
     return (
         <TravelContext.Provider value={authInfo}>
             {children}
