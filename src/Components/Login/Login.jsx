@@ -7,7 +7,7 @@ import { TravelContext } from "../../AuthProvider/AuthProvider";
 
 const Login = () => {
 
-    const { loginUser, resetPassword } = useContext(TravelContext);
+    const { loginUser, loginWithGoogle, loginWithFacebook, resetPassword } = useContext(TravelContext);
     const [errorMessage, setErrorMessage] = useState('');
     const [successMessage, setSuccessMessage] = useState('');
 
@@ -30,7 +30,7 @@ const Login = () => {
             })
     }
 
-    const handleLogin = e => {
+    const handlePasswordLogin = e => {
         e.preventDefault();
 
         // reset state
@@ -45,7 +45,7 @@ const Login = () => {
         loginUser(loginEmail, loginPassword)
             .then((result) => {
                 console.log(result.user);
-                setSuccessMessage('login successfull')
+                setSuccessMessage('login successful')
             })
             .catch((error) => {
                 console.error(error.message)
@@ -55,6 +55,29 @@ const Login = () => {
 
     }
 
+    const handleGoogleLogin = () => {
+        loginWithGoogle()
+            .then((result) => {
+                console.log(result.user);
+                setSuccessMessage('login successful')
+            })
+            .catch((error) => {
+                console.error(error.message)
+                setErrorMessage(error.message)
+            })
+    }
+    const handleFacebookLogin = () => {
+        loginWithFacebook()
+            .then((result) => {
+                console.log(result.user);
+                setSuccessMessage('login successful')
+            })
+            .catch((error) => {
+                console.error(error.message)
+                setErrorMessage(error.message)
+            })
+    }
+
     return (
         <div>
             <div className="">
@@ -62,7 +85,7 @@ const Login = () => {
                     <Navbar></Navbar>
                 </div>
                 <div className="my-12">
-                    <form onSubmit={handleLogin} className="border border-slate-500 rounded-md max-w-lg mx-auto p-8">
+                    <form onSubmit={handlePasswordLogin} className="border border-slate-500 rounded-md max-w-lg mx-auto p-8">
                         <h2 className="text-xl font-bold mb-8">Login here</h2>
                         <div className="my-2">
                             <p className="text-red-500 text-center">{errorMessage}</p>
@@ -91,11 +114,11 @@ const Login = () => {
                             <div className="border w-28"></div>
                         </div>
                         <div className="max-w-md mx-auto flex flex-col gap-4 mt-4">
-                            <button className="btn btn-outline rounded-full grid grid-cols-4 justify-start w-full text-left">
+                            <button onClick={handleFacebookLogin} className="btn btn-outline rounded-full grid grid-cols-4 justify-start w-full text-left">
                                 <img className="w-6" src={facebookLogo} alt="facebook-logo" />
                                 <span className="col-span-3">Continue with Facebook</span>
                             </button>
-                            <button className="btn btn-outline rounded-full grid grid-cols-4 justify-start w-full text-left">
+                            <button onClick={handleGoogleLogin} className="btn btn-outline rounded-full grid grid-cols-4 justify-start w-full text-left">
                                 <img className="w-6" src={googleLogo} alt="facebook-logo" />
                                 <span className="col-span-3">Continue with Google</span>
                             </button>

@@ -1,0 +1,294 @@
+[
+    {
+        "name": {
+            "name": "COX'S BAZAR"
+        },
+        "data": [
+            {
+                "hotel_name": "Seagull Hotel",
+                "rating": 4.5,
+                "price_per_night": 150,
+                "location": "Kolatoli Road, Cox's Bazar",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": false,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/seagull_hotel.jpg",
+                "service": {
+                    "rooms": 100,
+                    "guest_allow": 200,
+                    "beds": 150,
+                    "washrooms": 100,
+                    "room_type": "Standard",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Long Beach Hotel",
+                "rating": 4.7,
+                "price_per_night": 180,
+                "location": "Kalatoli Road, Cox's Bazar",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": true,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/long_beach_hotel.jpg",
+                "service": {
+                    "rooms": 80,
+                    "guest_allow": 160,
+                    "beds": 120,
+                    "washrooms": 80,
+                    "room_type": "Suite",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Sayeman Beach Resort",
+                "rating": 4.3,
+                "price_per_night": 120,
+                "location": "Marine Drive, Cox's Bazar",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": false,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/sayeman_beach_resort.jpg",
+                "service": {
+                    "rooms": 120,
+                    "guest_allow": 240,
+                    "beds": 180,
+                    "washrooms": 120,
+                    "room_type": "Deluxe",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": {
+            "name": "SUNDARBANS"
+        },
+        "data": [
+            {
+                "hotel_name": "Sundarban Riverside Resort",
+                "rating": 4.4,
+                "price_per_night": 200,
+                "location": "Khulna, Sundarbans",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": false,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/sundarban_riverside_resort.jpg",
+                "service": {
+                    "rooms": 30,
+                    "guest_allow": 60,
+                    "beds": 40,
+                    "washrooms": 30,
+                    "room_type": "Standard",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Sundarban Tiger Camp",
+                "rating": 4.6,
+                "price_per_night": 180,
+                "location": "Khulna, Sundarbans",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": true,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/sundarban_tiger_camp.jpg",
+                "service": {
+                    "rooms": 20,
+                    "guest_allow": 40,
+                    "beds": 30,
+                    "washrooms": 20,
+                    "room_type": "Suite",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Sundarban Mangrove Retreat",
+                "rating": 4.2,
+                "price_per_night": 150,
+                "location": "Khulna, Sundarbans",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": false,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/sundarban_mangrove_retreat.jpg",
+                "service": {
+                    "rooms": 40,
+                    "guest_allow": 80,
+                    "beds": 60,
+                    "washrooms": 40,
+                    "room_type": "Deluxe",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": {
+            "name": "SREEMANGAL"
+        },
+        "data": [
+            {
+                "hotel_name": "Grand Sultan Tea Resort & Golf",
+                "rating": 4.8,
+                "price_per_night": 250,
+                "location": "Srimangal, Sreemangal",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": true,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/grand_sultan_tea_resort.jpg",
+                "service": {
+                    "rooms": 60,
+                    "guest_allow": 120,
+                    "beds": 80,
+                    "washrooms": 60,
+                    "room_type": "Standard",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Tea Resort & Museum",
+                "rating": 4.4,
+                "price_per_night": 150,
+                "location": "Srimangal, Sreemangal",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": false,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/tea_resort_museum.jpg",
+                "service": {
+                    "rooms": 40,
+                    "guest_allow": 80,
+                    "beds": 60,
+                    "washrooms": 40,
+                    "room_type": "Deluxe",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Sreemangal Inn",
+                "rating": 4.2,
+                "price_per_night": 120,
+                "location": "Srimangal, Sreemangal",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": false,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/sreemangal_inn.jpg",
+                "service": {
+                    "rooms": 50,
+                    "guest_allow": 100,
+                    "beds": 70,
+                    "washrooms": 50,
+                    "room_type": "Standard",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": {
+            "name": "SAJEK VALLEY"
+        },
+        "data": [
+            {
+                "hotel_name": "Niribili Resort & Spa",
+                "rating": 4.6,
+                "price_per_night": 200,
+                "location": "Sajek Valley, Rangamati",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": true,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/niribili_resort_spa.jpg",
+                "service": {
+                    "rooms": 40,
+                    "guest_allow": 80,
+                    "beds": 60,
+                    "washrooms": 40,
+                    "room_type": "Suite",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Sajek Resort",
+                "rating": 4.3,
+                "price_per_night": 180,
+                "location": "Sajek Valley, Rangamati",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": false,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/sajek_resort.jpg",
+                "service": {
+                    "rooms": 30,
+                    "guest_allow": 60,
+                    "beds": 40,
+                    "washrooms": 30,
+                    "room_type": "Standard",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            },
+            {
+                "hotel_name": "Peda Ting Ting Eco Resort",
+                "rating": 4.5,
+                "price_per_night": 160,
+                "location": "Sajek Valley, Rangamati",
+                "facilities": {
+                    "air_condition": true,
+                    "kitchen": true,
+                    "wifi": true
+                },
+                "cancellation_available": true,
+                "photo_link": "https://example.com/peda_ting_ting_eco_resort.jpg",
+                "service": {
+                    "rooms": 50,
+                    "guest_allow": 100,
+                    "beds": 70,
+                    "washrooms": 50,
+                    "room_type": "Deluxe",
+                    "beds_in_room": 2,
+                    "washrooms_in_room": 1
+                }
+            }
+        ]
+    }
+]
