@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "project-travel-guru-4cf9d"
+  },
+  "targets": {
+    "project-travel-guru-4cf9d": {
+      "hosting": {
+        "project-travel-guru-4cf9d": [
+          "project-travel-guru-4cf9d"
+        ],
+        "travel-agency-project": [
+          "travel-agency-project"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
